@@ -2,12 +2,12 @@
 cd ..
 
 echo [ Compiling Java files...]
-javac -d . basic\behavior\*.java basic\*.java
+javac -d . game\behavior\*.java game\*.java
 
 if %errorlevel% neq 0 (
     echo [ Compilation failed.]
     exit /b
 )
 
-echo [ Running MiniDuckSimulator...]
-java basic.MiniDuckSimulator
+echo [ Running GameSimulator...]
+java game.GameSimulator
