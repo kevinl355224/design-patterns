@@ -1,13 +1,13 @@
 package basic;
 
-import basic.behavior.FlyWithWings;
+import basic.behavior.FlyNoWay;
 import basic.behavior.Quack;
 
 public class ModelDuck extends Duck {
 
     public ModelDuck() {
         quackBehavior = new Quack();
-        flyBehavior = new FlyWithWings();
+        flyBehavior = new FlyNoWay();
     }
 
     @Override
