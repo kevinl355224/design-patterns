@@ -10,7 +10,7 @@ This repository includes practice code in **Java** and **Python(Feature)**.
 ## Table of Contents
 
 1. **Strategy Pattern**
-    ![strategy_basic.jpg](./strategy/java/basic/strategy_basic.jpg)
+    ![strategy_basic.jpg](./strategy/java/duck/strategy_basic.jpg)
     - **Java**
         - withoutpattern
         - Duck(basic)
