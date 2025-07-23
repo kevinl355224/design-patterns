@@ -1,4 +1,4 @@
-package basic.behavior;
+package duck.behavior;
 
 public class MuteQuack implements QuackBehavior{
     public void quack() {

@@ -2,7 +2,7 @@
 cd ..
 
 echo [ Compiling Java files...]
-javac -d . basic\behavior\*.java basic\*.java
+javac -d . duck\behavior\*.java duck\*.java
 
 if %errorlevel% neq 0 (
     echo [ Compilation failed.]
@@ -10,4 +10,4 @@ if %errorlevel% neq 0 (
 )
 
 echo [ Running MiniDuckSimulator...]
-java basic.MiniDuckSimulator
+java duck.MiniDuckSimulator

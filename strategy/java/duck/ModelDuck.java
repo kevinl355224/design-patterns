@@ -1,7 +1,7 @@
-package basic;
+package duck;
 
-import basic.behavior.FlyNoWay;
-import basic.behavior.Quack;
+import duck.behavior.FlyNoWay;
+import duck.behavior.Quack;
 
 public class ModelDuck extends Duck {
 

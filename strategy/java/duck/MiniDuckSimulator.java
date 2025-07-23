@@ -1,6 +1,6 @@
-package basic;
+package duck;
 
-import basic.behavior.FlyRocketPowered;
+import duck.behavior.FlyRocketPowered;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 # Design Patterns
 
-This repository includes practice code in **Java** and **Python**.
+This repository includes practice code in **Java** and **Python(Feature)**.
 
 ## How to Use
 
@@ -13,7 +13,7 @@ This repository includes practice code in **Java** and **Python**.
     ![strategy_basic.jpg](./strategy/java/basic/strategy_basic.jpg)
     - **Java**
         - withoutpattern
-        - Basic
+        - Duck(basic)
         - Game
 2. **Observer Pattern**
     - **Java**
