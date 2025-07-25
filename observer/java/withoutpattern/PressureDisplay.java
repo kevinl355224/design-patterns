@@ -1,6 +1,6 @@
 package withoutpattern;
 
-public class CurrentPressureDisplay {
+public class PressureDisplay {
     public void update(float temp, float humidity, float pressure) {
         System.out.println("Current Pressure: " + pressure + " Pa");
     }

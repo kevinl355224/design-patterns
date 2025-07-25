@@ -3,27 +3,24 @@ package weatherstation.displays;
 import weatherstation.WeatherData;
 import weatherstation.interfaces.*;
 
-public class CurrentConditionsDisplay implements Observer, DisplayElement{
-    private float temperature;
-    private float humidity;
+public class PressureDisplay implements Observer, DisplayElement {
+    private float pressure;
     private WeatherData weatherData;
 
-    public CurrentConditionsDisplay(WeatherData weatherData) {
+    public PressureDisplay(WeatherData weatherData) {
         this.weatherData = weatherData;
-        weatherData.registerObserver(this); // Use instance reference to register as an observer
+        weatherData.registerObserver(this);
     }
 
     @Override
     public void update(float temp, float humidity, float pressure) {
-        this.temperature = temp;
-        this.humidity = humidity;
+        this.pressure = pressure;
         display();
     }
 
     @Override
     public void display() {
-        System.out.println("Current conditions: " 
-        + temperature + "。C | " + humidity + "% humidity");
+        System.out.println("Current Pressure: " + pressure + " Pa");
     }
 
     // Use the following methods to register or unregister this display.

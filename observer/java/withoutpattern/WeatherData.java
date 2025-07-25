@@ -2,9 +2,8 @@ package withoutpattern;
 
 public class WeatherData {
     // Direct references to display classes (tightly coupled)
-    private CurrentConditionsDisplay currentConditionsDisplay;
-    private CurrentPressureDisplay currentPressureDisplay;
-
+    private ConditionsDisplay conditionsDisplay;
+    private PressureDisplay pressureDisplay;
 
     private float temp;
     private float humidity;
@@ -12,14 +11,14 @@ public class WeatherData {
 
     public WeatherData() {
         // Instantiate the display elements directly
-        currentConditionsDisplay = new CurrentConditionsDisplay();
-        currentPressureDisplay = new CurrentPressureDisplay();
+        conditionsDisplay = new ConditionsDisplay();
+        pressureDisplay = new PressureDisplay();
     }
 
     public void measurementsChanged() {
         // Directly push data to each display
-        currentConditionsDisplay.update(temp, humidity, pressure);
-        currentPressureDisplay.update(temp, humidity, pressure);
+        conditionsDisplay.update(temp, humidity, pressure);
+        pressureDisplay.update(temp, humidity, pressure);
     }
 
     // Use this function to simulate get a new data

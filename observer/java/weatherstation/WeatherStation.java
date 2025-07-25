@@ -1,19 +1,19 @@
 package weatherstation;
 
-import weatherstation.displays.CurrentConditionsDisplay;
-import weatherstation.displays.CurrentPressureDisplay;
+import weatherstation.displays.ConditionsDisplay;
+import weatherstation.displays.PressureDisplay;
 
 public class WeatherStation {
     public static void main(String[] args) {
 
         WeatherData weatherData = new WeatherData();
-        CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
-        CurrentPressureDisplay currentPressureDisplay = new CurrentPressureDisplay(weatherData);
+        ConditionsDisplay conditionsDisplay = new ConditionsDisplay(weatherData);
+        PressureDisplay pressureDisplay = new PressureDisplay(weatherData);
 
         System.out.println("\n---- Simulate data update ----");
         weatherData.setMeasurements(25, 65, 101325);
         System.out.println("\n---- Simulate unregister pressure ----");
-        currentPressureDisplay.unregister();
+        pressureDisplay.unregister();
         System.out.println("\n---- Simulate data update ----");
         weatherData.setMeasurements(27, 23, 100315);
         
