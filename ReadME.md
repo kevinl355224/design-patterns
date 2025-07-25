@@ -12,9 +12,10 @@ This repository includes practice code in **Java** and **Python(Feature)**.
 1. **Strategy Pattern**
     ![strategy_basic.jpg](./strategy/java/duck/strategy_basic.jpg)
     - **Java**
-        - withoutpattern
-        - Duck(basic)
+        - WithoutPattern
+        - Duck (Basic)
         - Game
 2. **Observer Pattern**
     - **Java**
-        - Weather
+        - WithoutPattern
+        - WeatherStation (Basic)
