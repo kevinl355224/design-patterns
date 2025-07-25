@@ -11,3 +11,5 @@ if %errorlevel% neq 0 (
 
 echo [ Running MiniDuckSimulator...]
 java withoutpattern.MiniDuckSimulator
+
+echo [ MiniDuckSimulator Ended ]

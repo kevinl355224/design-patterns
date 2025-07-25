@@ -11,3 +11,5 @@ if %errorlevel% neq 0 (
 
 echo [ Running GameSimulator...]
 java game.GameSimulator
+
+echo [ GameSimulator Ended ]

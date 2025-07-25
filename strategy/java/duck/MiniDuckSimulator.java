@@ -13,11 +13,11 @@ public class MiniDuckSimulator {
 
         System.out.println("\n---- This is Model duck ----");
         Duck model = new ModelDuck();
-        model.display();;
+        model.display();
         model.performQuack();
         model.preformFly();
         System.out.println("( Reset fly behavior )");
         model.setFlyBehavior(new FlyRocketPowered());
-        model.preformFly();;
+        model.preformFly();
     }
 }
