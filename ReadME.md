@@ -1,6 +1,6 @@
 # Design Patterns
 
-This repository includes practice code in **Java** and **Python(Feature)**.
+This repository includes practice code in **Java** and **Python(Future)**.
 
 ## How to Use
 
@@ -16,6 +16,7 @@ This repository includes practice code in **Java** and **Python(Feature)**.
         - Duck (Basic)
         - Game
 2. **Observer Pattern**
+    ![observer_basic.jpg](./observer/java/weatherstation/observer_basic.jpg)
     - **Java**
         - WithoutPattern
         - WeatherStation (Basic)
